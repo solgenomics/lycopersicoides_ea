@@ -13,13 +13,13 @@
     <link rel="stylesheet" type="text/css" href="/static/js/codebase/dhtmlxslider.css"/>
 
 		<script>
-		 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+//		 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+//		 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+//		 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+//		 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-		 ga('create', 'UA-2460904-12', 'auto');
-		 ga('send', 'pageview');
+//		 ga('create', 'UA-2460904-12', 'auto');
+//		 ga('send', 'pageview');
 		</script>
 
 		<!-- <script type="text/javascript" src="/static/js/jqueryui/jquery-ui.js"></script> -->
@@ -39,24 +39,20 @@
               <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="https://solgenomics.net" style="padding:8px 8px" target="_blank"><img src="/static/images/sgn_logo.png" width="40" title="SGN Home"></a>
-            <a class="navbar-brand sgn_brand_name" href="/">Tomato Expression Atlas</a>
+            <a class="navbar-brand sgn_brand_name" href="/">Lycopersicoides Expression Atlas</a>
           </div>
 
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
               <!-- <li><a href="/overview">Overview</a></li> -->
-              <li class="dropdown"><a id="overview_link" class="menu_click_dropdown dropdown-toggle" data-toggle="dropdown">Overview</a>
+							<li><a href="/expression_viewer/input">Expression Viewer</a></li>
+              <li class="dropdown"><a id="overview_link" class="menu_click_dropdown dropdown-toggle" data-toggle="dropdown">About</a>
 
                 <ul class="dropdown-menu">
-                  <li><a href="/overview">About Us</a></li>
                   <li><a data-toggle="modal" data-target="#cite_us_modal">Cite Us</a></li>
                   <li><a href="/help">Help</a></li>
                 </ul>
               </li>
-
-              <li><a href="/expression_viewer/input">Expression Viewer</a></li>
-              <li><a href="/anatomy_viewer">Anatomy Viewer</a></li>
-
             </ul>
           </div>
 

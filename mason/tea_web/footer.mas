@@ -1,19 +1,11 @@
 <div id="footer" style="display:inline">
-  <div style="float:left">
-    <a href="/overview"><img src="/static/images/overview_small.png" height="50" style="margin-left:25px;"/></a>
-    <a href="/expression_viewer/input"><img src="/static/images/expr_small.png" height="50" style="margin-left:5px;"/></a>
-    <a href="/anatomy_viewer"><img src="/static/images/anatomy_small.png" height="50" style="margin-left:5px;"/></a>
-  </div>
 
   <div style="float:right;">
-    <a href="http://www.nsf.gov" target="_blank"><img src="/static/images/nsf.png" height="50" style="margin-right:5px;"/></a>
+    <a href="https://btiscience.org/our-research/computational-biology/" target="_blank"><img src="/static/images/bcbc_logo.png" height="45" style="margin-right:5px;"/></a>
     <a href="http://bti.cornell.edu/" target="_blank"><img src="/static/images/bti_logo.png" height="45" style="margin-right:5px;"/></a>
-    <a href="http://www.cornell.edu" target="_blank"><img src="/static/images/cu_logo.png" height="45" style="margin-right:5px;"/></a>
-    <a href="http://www.usda.gov" target="_blank"><img src="/static/images/usda_logo2.png" height="45" style="margin-right:25px;"/></a>
   </div>
-  
-  <div style="text-align:center;color:#666;padding-top:15px;cursor: pointer"><a style="padding-left:10px;padding-right:10px" rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /><a style="padding-left:10px;padding-right:10px" data-toggle="modal" data-target="#attribution_modal">Image Use Attribution</a></a></div>
-  
+
+  <div style="text-align:center;color:#666;padding-top:15px">Hosted at <a href="http://bti.cornell.edu/" target="_blank">BTI</a></div>
 </div>
 
 <div class="modal fade" id="cite_us_modal" role="dialog">
@@ -26,21 +18,9 @@
       <div class="modal-body">
         <ul>
           <li>
-            Fernandez-Pozo N, Zheng Y, Snyder SI, Nicolas P, Shinozaki Y, Fei Z, Catala C, Giovannoni JJ, Rose JKC, Mueller LA.<br>
-            <a class="cite-link" href="https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btx190" target="blank">The Tomato Expression Atlas</a><br>
-            Bioinformatics 2017 btx190. doi: 10.1093/bioinformatics/btx190
-          </li>
-          <br>
-          <li>
-            Pattison RJ, Csukasi F, Zheng Y, Fei Z, Van der Knaap E, Catala C.<br>
-            <a class="cite-link" href="http://www.plantphysiol.org/content/168/4/1684.full" target="blank">Comprehensive Tissue-Specific Transcriptome Analysis Reveals Distinct Regulatory Programs during Early Tomato Fruit Development</a><br>
-            Plant Physiology 2015 Vol. 168, pp. 1684–1701
-          </li>
-	  <br>
-	  <li>
-            Shinozaki Y, Nicolas P, Fernandez-Pozo N, Ma Q, Evanich DJ, Shi Y, Xu Y, Zheng Y, Snyder SI, Martin LBB, Ruiz-May E, Thannhauser TW, Chen K, Domozych DS, Catala C, Fei Z, Mueller LA, Giovannoni JJ, Rose JKC.<br>
-            <a class="cite-link" href="https://www.nature.com/articles/s41467-017-02782-9" target="blank">High-resolution spatiotemporal transcriptome mapping of tomato fruit development and ripening</a><br>
-            Nature Communications 2018 Vol. 9, doi:10.1038/s41467-017-02782-9
+            Powell AF, Courtney LE, Schmidt MH-W, Feder A, Vogel A, Xu Y, etc. <br>
+            <a class="cite-link" href="https://www.biorxiv.org/content/10.1101/2020.04.16.039636v1" target="blank">A <i>Solanum lycopersicoides</i> reference genome facilitates biological discovery in tomato.</a><br>
+            TBD, doi, etc.
           </li>
         </ul>
       </div>
@@ -67,4 +47,3 @@
     color: #337ab7;
   }
 </style>
-
