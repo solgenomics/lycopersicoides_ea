@@ -169,8 +169,8 @@ MGTENWSLTAKLCDSCKTSPATVFCRADSAFLCLGCDCKIHAANKLASRHARVWVCEVCEQAPASVTCKADAAALCVTCD
         	<label for="custom_list">Paste a list of gene IDs</label>
 
 <textarea id="custom_list" class="form-control" rows="10" name="input_gene" style="margin-top: 5px;">
-Solyc04g008460
-Solyc01g102660
+Solyd01g051530
+Solyd04g065450
 </textarea>
 
           <!-- <div class="checkbox pull-left">
