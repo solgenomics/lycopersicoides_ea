@@ -22,7 +22,7 @@ $delete_enabled => ()
           }
         </%perl>
         
-        <a href="/anatomy_viewer/microscopy" target="blank" class="pull-right">more info</a>
+        <a href="/expression_viewer/project_menu" target="blank" class="pull-right">more info</a>
         <center>
           Projects
         </center>
