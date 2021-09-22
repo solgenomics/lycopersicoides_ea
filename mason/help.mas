@@ -31,7 +31,6 @@
           <br>
           <ol>
             <li><a href="help/input/#geneid">Search gene expression using tomato gene ID.</a></li>
-            <li><a href="help/input/#blast">Search gene expression using BLAST.</a></li>
             <li><a href="help/input/#custom">Search gene expression for a custom list.</a></li>
           </ol>
         </li>
@@ -54,7 +53,6 @@
           <ol>
             <li><a href="help/output/#exp_cube">Expression Cube.</a></li>
             <li><a href="help/output/#exp_bar">Expression bar graphs.</a></li>
-            <li><a href="help/output/#exp_img">Expression images.</a></li>
             <li><a href="help/output/#exp_heatmap">Heatmap.</a></li>
             <li><a href="help/output/#exp_scatterplot">Scatterplots.</a></li>
             <li><a href="help/output/#exp_download">Downloading the results.</a></li>

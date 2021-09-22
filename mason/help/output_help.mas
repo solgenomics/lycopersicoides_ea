@@ -9,16 +9,15 @@
       <a href="/help">Go back</a><br><br>
 
       <p>
-        The output of the expression atlas offers 4 ways to visualize the expression data and 2 ways to download the results:
+        The output of the expression atlas offers several ways to visualize the expression data and to download the results:
       </p>
 
       <ul>
         <li><a href="#exp_cube">3.1 Expression Cube</a></li>
         <li><a href="#exp_bar">3.2 Expression bar graphs</a></li>
-        <li><a href="#exp_img">3.3 Expression images</a></li>
-        <li><a href="#exp_heatmap">3.4 Heatmap</a></li>
-	<li><a href="#exp_scatterplot">3.5 Scatterplots</a></li>
-        <li><a href="#exp_download">3.6 Downloading the results</a></li>
+        <li><a href="#exp_heatmap">3.3 Heatmap</a></li>
+	<li><a href="#exp_scatterplot">3.4 Scatterplots</a></li>
+        <li><a href="#exp_download">3.5 Downloading the results</a></li>
       </ul>
 
       <p>
@@ -83,26 +82,10 @@
       </center>
       <center>
         <img id="output_fig5" src="/static/images/help_imgs/barplot2.png" style="width:100%;max-width:800px;"><br>
-        Figure 5. Expression bar graph with tissues and stages transposed.<br><br><br>
+        Figure 5. Expression bar graph with factors transposed.<br><br><br>
       </center>
 
-      <h4 id="exp_img"><b>3.3 Expression images</b></h4>
-
-      <p>
-        The second tab on the expression viewer output shows the expression values
-        from the query gene in their anatomical and developmental context,
-        using a color scale to display the expression on drawings that represent the stages and tissues from the tomato fruit (<a href="#output_fig6">Figure 6</a>).
-        These drawings are directly traced from photographs and microscope images (<a href="/anatomy_viewer/microscopy/" target="blank">See the anatomy viewer for more information</a>).
-        Moving the mouse over the images will show a popup window with the expression value for each of the tissues/treatment types.
-      </p>
-
-      <br>
-      <center>
-        <img id="output_fig6" src="/static/images/help_imgs/exp_images.png" style="width:100%;max-width:1000px;"><br>
-        Figure 6. Expression images output<br><br><br>
-      </center>
-
-      <h4 id="exp_heatmap"><b>3.4 Heatmap</b></h4>
+      <h4 id="exp_heatmap"><b>3.3 Heatmap</b></h4>
 
       <p>
         An interactive heatmap clusters the genes and conditions using a distance tree.
@@ -114,11 +97,11 @@
       </p>
 
       <center>
-        <img id="output_fig7" src="/static/images/help_imgs/exp_heatmap.png" style="width:100%;max-width:1000px;"><br>
-        Figure 7. Heatmap<br><br><br>
+        <img id="output_fig6" src="/static/images/help_imgs/exp_heatmap.png" style="width:100%;max-width:1000px;"><br>
+        Figure 6. Heatmap<br><br><br>
       </center>
 
-      <h4 id="exp_scatterplot"><b>3.5 Scatterplots</b></h4>
+      <h4 id="exp_scatterplot"><b>3.4 Scatterplots</b></h4>
 
       <p>
         The scatterplot tab enables the user to make pairwise comparisons between two samples. The user first selects two samples using the selector, which represents to top side of the expression cube (<a href="#output_fig8">Figure 8</a>). By selecting two samples and clicking <kbd>Get scatterplot</kbd>, the user will be provided with a scatterplot of expression values for all genes in the selected samples (<a href="#output_fig9">Figure 9</a>). The identity of genes in the scatterplot can be seen by mousing over points in the scatterplot. Zooming in on the scatterplot can be achieved by clicking and dragging the mouse over the desired area. Resetting the magnification is accomplished by clicking on the plot. The scatterplot selection can be reset by clicking <kbd>New scatterplot</kbd>.
@@ -126,23 +109,23 @@
 
 
       <center>
-        <img id="output_fig8" src="/static/images/help_imgs/scatterplot_selector.png" style="width:100%;max-width:1000px;"><br>
-        Figure 8. Scatterplot selector<br><br><br>
+        <img id="output_fig7" src="/static/images/help_imgs/scatterplot_selector.png" style="width:100%;max-width:1000px;"><br>
+        Figure 7. Scatterplot selector<br><br><br>
       </center>
 
       <center>
-        <img id="output_fig9" src="/static/images/help_imgs/scatterplot_output.png" style="width:100%;max-width:1000px;"><br>
-        Figure 9. Scatterplot output<br><br><br>
+        <img id="output_fig8" src="/static/images/help_imgs/scatterplot_output.png" style="width:100%;max-width:1000px;"><br>
+        Figure 8. Scatterplot output<br><br><br>
       </center>
 
 
-      <h4 id="exp_download"><b>3.6 Downloading the results</b></h4>
+      <h4 id="exp_download"><b>3.5 Downloading the results</b></h4>
 
       <p>
         There are two ways to download the results from the expression atlas.
         First, the expression cube and the expression images can be downloaded
         clicking the <kbd>save as img</kbd> button on the right of the tabs
-        <i>Expression Cube, Expression images</i> and <i>Heatmap</i> (<a href="#output_fig1">Figure 1</a>).
+        <i>Expression Cube</i> and <i>Heatmap</i> (<a href="#output_fig1">Figure 1</a>).
         This button will download the images from the active tab exactly in the state they are displayed when clicking the button.
         The downloaded images have a transparent background, so that they can more easily be included in slides or publications.<br>
         Another way to download the expression data for the selected conditions is by clicking on the <kbd>Download expression data</kbd> button
