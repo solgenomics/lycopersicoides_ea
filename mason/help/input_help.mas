@@ -26,7 +26,7 @@
 
       <p>
         The simplest way to query the expression viewer is to write or paste a gene name
-        (this name will start with the annotation Solyd…) in the input box under the title <i>By Gene ID</i>.
+        (this name will start with the annotation 'Solyd') in the input box under the title <i>By Gene ID</i>.
         Clicking on the <kbd>Get Expression</kbd> button will return the <a href="/help/output" target="blank">expression output</a>
         for this gene and the genes with the most similar expression profiles.
       </p>
@@ -37,14 +37,14 @@
       <p>
         The expression viewer can also be used with a list of genes of interest to the user,
         by clicking on the input box under the title <i>By Custom List</i>.
-        A dialog will pop up into which multiple tomato gene names can be written or pasted (<a href="#input_fig4">Figure 4</a>).
+        A dialog will pop up into which multiple tomato gene names can be written or pasted (<a href="#input_fig2">Figure 2</a>).
         Clicking on the <kbd>Get Expression</kbd> button will result in these genes being displayed in the <a href="/help/output" target="blank">expression viewer output</a>.
       </p>
 
       <br>
       <center>
-        <img id="input_fig4" src="/static/images/help_imgs/custom_list.png" style="width:100%;max-width:1000px;"><br>
-        Figure 4. Custom list search input dialog.<br><br><br>
+        <img id="input_fig2" src="/static/images/help_imgs/custom_list.png" style="width:100%;max-width:1000px;"><br>
+        Figure 2. Custom list search input dialog.<br><br><br>
       </center>
       <br><br>
 

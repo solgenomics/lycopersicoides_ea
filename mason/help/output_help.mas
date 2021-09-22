@@ -13,7 +13,7 @@
       </p>
 
       <ul>
-        <li><a href="#exp_cube">3.1 Expression Cube</a></li>
+        <li><a href="#exp_cube">3.1 Expression cube</a></li>
         <li><a href="#exp_bar">3.2 Expression bar graphs</a></li>
         <li><a href="#exp_heatmap">3.3 Heatmap</a></li>
 	<li><a href="#exp_scatterplot">3.4 Scatterplots</a></li>
@@ -29,10 +29,10 @@
 
       <center>
         <img id="output_fig1" src="/static/images/help_imgs/exp_output.png" style="width:100%;max-width:1000px;"><br>
-        Figure 1. Expression Cube output.<br><br><br>
+        Figure 1. Expression cube output.<br><br><br>
       </center>
 
-      <h4 id="exp_cube"><b>3.1 Expression Cube</b></h4>
+      <h4 id="exp_cube"><b>3.1 Expression cube</b></h4>
 
       <p>
         This output consists of a 3D cube where the top layer displays the expression data for the query gene
@@ -104,7 +104,7 @@
       <h4 id="exp_scatterplot"><b>3.4 Scatterplots</b></h4>
 
       <p>
-        The scatterplot tab enables the user to make pairwise comparisons between two samples. The user first selects two samples using the selector, which represents to top side of the expression cube (<a href="#output_fig8">Figure 8</a>). By selecting two samples and clicking <kbd>Get scatterplot</kbd>, the user will be provided with a scatterplot of expression values for all genes in the selected samples (<a href="#output_fig9">Figure 9</a>). The identity of genes in the scatterplot can be seen by mousing over points in the scatterplot. Zooming in on the scatterplot can be achieved by clicking and dragging the mouse over the desired area. Resetting the magnification is accomplished by clicking on the plot. The scatterplot selection can be reset by clicking <kbd>New scatterplot</kbd>.
+        The scatterplot tab enables the user to make pairwise comparisons between two samples. The user first selects two samples using the selector, which represents to top side of the expression cube (<a href="#output_fig7">Figure 7</a>). By selecting two samples and clicking <kbd>Get scatterplot</kbd>, the user will be provided with a scatterplot of expression values for all genes in the selected samples (<a href="#output_fig8">Figure 8</a>). The identity of genes in the scatterplot can be seen by mousing over points in the scatterplot. Zooming in on the scatterplot can be achieved by clicking and dragging the mouse over the desired area. Resetting the magnification is accomplished by clicking on the plot. The scatterplot selection can be reset by clicking <kbd>New scatterplot</kbd>.
       </p>
 
 
