@@ -9,7 +9,7 @@
       <a href="/help">Go back</a><br><br>
 
       <p>
-        There are three ways to look for gene expression in the expression viewer (<a href="#input_fig1">Figure 1</a>):
+        There are several ways to look for gene expression in the expression viewer (<a href="#input_fig1">Figure 1</a>):
       </p>
 
       <ul>
@@ -18,7 +18,7 @@
       </ul>
 
       <center>
-        <img id="input_fig1" src="/static/images/help_imgs/input.png" style="width:100%;max-width:900px;"><br>
+        <img id="input_fig1" src="/static/images/help_imgs/input_slyd.png" style="width:100%;max-width:900px;"><br>
         Figure 1. Available input options on the Expression viewer.<br><br><br>
       </center>
 
@@ -43,7 +43,7 @@
 
       <br>
       <center>
-        <img id="input_fig2" src="/static/images/help_imgs/custom_list.png" style="width:100%;max-width:1000px;"><br>
+        <img id="input_fig2" src="/static/images/help_imgs/custom_list_slyd.png" style="width:100%;max-width:1000px;"><br>
         Figure 2. Custom list search input dialog.<br><br><br>
       </center>
       <br><br>
