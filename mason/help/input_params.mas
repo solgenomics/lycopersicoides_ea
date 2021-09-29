@@ -16,7 +16,7 @@
       </p>
       <br>
       <center>
-        <img id="params_fig1" src="/static/images/help_imgs/exp_parameters_v2.png" style="width:100%;max-width:1000px;"><br>
+        <img id="params_fig1" src="/static/images/help_imgs/exp_parameters_v2_slyd.png" style="width:100%;max-width:1000px;"><br>
         Figure 1. Eligible options for the Expression Viewer.<br><br><br>
       </center>
 
@@ -69,7 +69,7 @@
       </p>
 
       <center>
-        <img id="params_fig3" src="/static/images/help_imgs/multi_select_v2.png" style="width:100%;max-width:1000px;"><br>
+        <img id="params_fig3" src="/static/images/help_imgs/multi_select_v2_slyd.png" style="width:100%;max-width:1000px;"><br>
         Figure 3. Multiple selection of conditions.<br><br><br>
       </center>
 
@@ -77,7 +77,7 @@
         Different selections of the stage, organ, tissue and treatment selection boxes will produce different <a href="/help/output" target="blank">outputs</a>.
         For example, when selecting different items from the selection boxes,
         the shape of the <a href="/help/output/#exp_cube" target="blank">expression cube</a> will adapt to the selected conditions (<a href="#params_fig4">Figure 4</a>).
-        The figures associated with the 
+        The figures associated with the
         <a href="/help/output/#exp_heatmap" target="blank">heatmap</a> in the data output will also change according to the selected conditions.
       </p>
 

@@ -28,7 +28,7 @@
       </p>
 
       <center>
-        <img id="output_fig1" src="/static/images/help_imgs/exp_output.png" style="width:100%;max-width:1000px;"><br>
+        <img id="output_fig1" src="/static/images/help_imgs/exp_output_slyd.png" style="width:100%;max-width:1000px;"><br>
         Figure 1. Expression cube output.<br><br><br>
       </center>
 
@@ -46,7 +46,7 @@
       </p>
 
       <center>
-        <img id="output_fig2" src="/static/images/help_imgs/cube_top.png" style="width:60%;max-width:600px;"><br>
+        <img id="output_fig2" src="/static/images/help_imgs/cube_top_slyd.png" style="width:60%;max-width:600px;"><br>
         Figure 2. Top layer of the Expression Cube.<br><br><br>
       </center>
 
@@ -61,7 +61,7 @@
       </p>
 
       <center>
-        <img id="output_fig3" src="/static/images/help_imgs/exp_output2.png" style="width:100%;max-width:1000px;"><br>
+        <img id="output_fig3" src="/static/images/help_imgs/exp_output2_slyd.png" style="width:100%;max-width:1000px;"><br>
         Figure 3. Expression Cube split in two showing description and correlation for a gene.<br><br><br>
       </center>
 
@@ -77,11 +77,11 @@
 
       <br>
       <center>
-        <img id="output_fig4" src="/static/images/help_imgs/barplot1.png" style="width:100%;max-width:800px;"><br>
+        <img id="output_fig4" src="/static/images/help_imgs/barplot1_slyd.png" style="width:100%;max-width:800px;"><br>
         Figure 4. Expression bar graph.<br><br><br>
       </center>
       <center>
-        <img id="output_fig5" src="/static/images/help_imgs/barplot2.png" style="width:100%;max-width:800px;"><br>
+        <img id="output_fig5" src="/static/images/help_imgs/barplot2_slyd.png" style="width:100%;max-width:800px;"><br>
         Figure 5. Expression bar graph with factors transposed.<br><br><br>
       </center>
 
@@ -97,7 +97,7 @@
       </p>
 
       <center>
-        <img id="output_fig6" src="/static/images/help_imgs/exp_heatmap.png" style="width:100%;max-width:1000px;"><br>
+        <img id="output_fig6" src="/static/images/help_imgs/exp_heatmap_slyd.png" style="width:100%;max-width:1000px;"><br>
         Figure 6. Heatmap<br><br><br>
       </center>
 
@@ -109,12 +109,12 @@
 
 
       <center>
-        <img id="output_fig7" src="/static/images/help_imgs/scatterplot_selector.png" style="width:100%;max-width:1000px;"><br>
+        <img id="output_fig7" src="/static/images/help_imgs/scatterplot_selector_slyd.png" style="width:100%;max-width:1000px;"><br>
         Figure 7. Scatterplot selector<br><br><br>
       </center>
 
       <center>
-        <img id="output_fig8" src="/static/images/help_imgs/scatterplot_output.png" style="width:100%;max-width:1000px;"><br>
+        <img id="output_fig8" src="/static/images/help_imgs/scatterplot_output_slyd.png" style="width:100%;max-width:1000px;"><br>
         Figure 8. Scatterplot output<br><br><br>
       </center>
 
