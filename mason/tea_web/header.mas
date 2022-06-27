@@ -1,0 +1,100 @@
+<!doctype html public "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<title>Lycopersicoides-EA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<script type="text/javascript" src="/static/js/jquery.js"></script>
+
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <script src="/static/js/bootstrap.min.js"></script>
+
+		<link rel="stylesheet" href="/static/js/jqueryui/themes/base/jquery-ui.css">
+		<link rel="stylesheet" href="/static/css/tea.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="/static/js/codebase/dhtmlxslider.css"/>
+
+		<script>
+//		 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+//		 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+//		 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+//		 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+//		 ga('create', 'UA-2460904-12', 'auto');
+//		 ga('send', 'pageview');
+		</script>
+
+		<!-- <script type="text/javascript" src="/static/js/jqueryui/jquery-ui.js"></script> -->
+		<script type="text/javascript" src="/static/js/jqueryui/jquery-ui-1.12.1/jquery-ui.js"></script>
+
+	</head>
+
+	<body>
+		<div id="header">
+      <nav class="navbar navbar-default" style="border-radius: 0px;">
+        <div class="container-fluid">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://solgenomics.net" style="padding:8px 8px" target="_blank"><img src="/static/images/sgn_logo.png" width="40" title="SGN Home"></a>
+            <a class="navbar-brand sgn_brand_name" href="/">Lycopersicoides Expression Atlas</a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <!-- <li><a href="/overview">Overview</a></li> -->
+							<li><a href="/expression_viewer/input">Expression Viewer</a></li>
+              <li class="dropdown"><a id="overview_link" class="menu_click_dropdown dropdown-toggle" data-toggle="dropdown">About</a>
+
+                <ul class="dropdown-menu">
+                  <li><a data-toggle="modal" data-target="#cite_us_modal">Cite Us</a></li>
+                  <li><a href="/help">Help</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
+      <br>
+  	</div>
+	</body>
+</html>
+
+<style>
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    padding-bottom: 10px;
+    cursor: pointer
+  }
+  .dropdown-menu > li > a {
+    line-height: 14px;
+    font-size: 14px;
+    margin-top:0px;
+    padding-top:0px;
+    cursor: pointer
+  }
+
+  .navbar-default .navbar-nav>li>a {
+    color: #555;
+    cursor: pointer
+  }
+
+  .navbar-default .navbar-nav>li>a:hover {
+    background-color: #e7e7e7;
+  }
+
+</style>
+
+<script>
+
+  jQuery(document).ready(function() {
+    jQuery(".menu_click_dropdown").removeClass("dropdown-toggle");
+    jQuery(".menu_click_dropdown").removeAttr("data-toggle");
+  });
+
+</script>

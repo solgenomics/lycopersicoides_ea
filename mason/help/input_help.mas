@@ -1,0 +1,54 @@
+<center>
+  <h2 style="margin-top:0px">Ways to explore gene expression</h2>
+</center>
+<br>
+
+<div class="container" style="width:80%;max-width:1000px;">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <a href="/help">Go back</a><br><br>
+
+      <p>
+        There are several ways to look for gene expression in the expression viewer (<a href="#input_fig1">Figure 1</a>):
+      </p>
+
+      <ul>
+        <li><a href="#geneid">1.1 Gene ID</a></li>
+        <li><a href="#custom">1.2 Custom List of Genes</a></li>
+      </ul>
+
+      <center>
+        <img id="input_fig1" src="/static/images/help_imgs/input_slyd.png" style="width:100%;max-width:900px;"><br>
+        Figure 1. Available input options on the Expression viewer.<br><br><br>
+      </center>
+
+      <h4 id="geneid"><b>1.1 Search gene expression using gene ID</b></h4>
+
+      <p>
+        The simplest way to query the expression viewer is to write or paste a gene name
+        (this name will start with the annotation 'Solyd') in the input box under the title <i>By Gene ID</i>.
+        Clicking on the <kbd>Get Expression</kbd> button will return the <a href="/help/output" target="blank">expression output</a>
+        for this gene and the genes with the most similar expression profiles.
+      </p>
+      <br>
+
+      <h4 id="custom"><b>1.2 Search gene expression for a custom list</b></h4>
+
+      <p>
+        The expression viewer can also be used with a list of genes of interest to the user,
+        by clicking on the input box under the title <i>By Custom List</i>.
+        A dialog will pop up into which multiple tomato gene names can be written or pasted (<a href="#input_fig2">Figure 2</a>).
+        Clicking on the <kbd>Get Expression</kbd> button will result in these genes being displayed in the <a href="/help/output" target="blank">expression viewer output</a>.
+      </p>
+
+      <br>
+      <center>
+        <img id="input_fig2" src="/static/images/help_imgs/custom_list_slyd.png" style="width:100%;max-width:1000px;"><br>
+        Figure 2. Custom list search input dialog.<br><br><br>
+      </center>
+      <br><br>
+
+
+    </div>
+  </div>
+</div>
